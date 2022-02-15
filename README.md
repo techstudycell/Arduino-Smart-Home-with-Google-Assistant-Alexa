@@ -118,7 +118,7 @@ To make the circuit compact and give a professional look, I have designed the PC
 
 You can download the PCB Gerber file of this home automation project from the following link:
 
-Download PCB Gerber from GitHub
+Download PCB Gerber from GitHub: https://github.com/techstudycell/Arduino-Smart-Home-with-Google-Assistant-Alexa/tree/main/PCB_Gerber
 
 ## Order the PCB from JLCPCB
 After downloading the Garber file you can easily order the PCB.
@@ -140,11 +140,14 @@ After that, I have soldered all the components as per the circuit diagram.
 
 Then connect the ESP01 board with the PCB.
 
+## Download the source codes for the Arduino IoT Project
+https://github.com/techstudycell/Arduino-Smart-Home-with-Google-Assistant-Alexa/tree/main/Code
+
 ## Get the IR Codes (HEX Code) From Remote
 
 Now, to get the HEX codes from the remote, first, we have to connect the IR receiver output pin with the A0 pin of Arduino UNO.And give the 5V across the VCC and GND. The IR receiver must have a metallic casing, otherwise, you may face issues.
 
-### Then follow the following steps to get the HEX codes:
+### Follow the following steps to get the HEX codes:
 
 1. Install the IRremote libraryin Arduino IDE.
 2. Download the attached code, and upload it to Arduino UNO.
@@ -158,7 +161,7 @@ If you use the PCB, then you can easily go to program mode with a switch (PMOD) 
 
 Otherwise, you refer to this circuit to program the ESP-01. During programming, the GPIO-0 and GND should be connected.
 
-First, download the attached source code & install all the required libraries mentioned in the code.
+First, download source codes & install all the required libraries mentioned in the code.
 
 Required Arduino Libraries:
 
