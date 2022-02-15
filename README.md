@@ -45,7 +45,7 @@ This Arduino ESP8266 Home Automation works in the following steps.
 9. FTDI232 USB to TTL
 10. 5V DC supply.
 
-Required Components for the Arduino control Relay PCB:
+### Required Components for the Arduino control Relay PCB:
 
 1. Atmega328P microcontroller
 2. ESP8266 ESP01
